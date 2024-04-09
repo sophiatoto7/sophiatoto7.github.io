@@ -1,0 +1,116 @@
+
+.open-sans-demo {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+} 
+
+p {
+color: blue;
+
+
+}
+
+div {
+ border: green 1px solid;
+background-color: pink;
+width: 50%;
+/* padding: 100px;*/
+/*position:relative;
+left: 50px; */
+/*position:absolute;
+top: 50px;
+z-index:-100; */
+
+}
+
+.blue {
+    color: blue;
+}
+.red {
+    color: red;
+} 
+a {
+    text-decoration: none;
+}
+a:link {
+    color:green;
+}
+
+a:visited {
+    color:cyan;
+}
+a:hover {
+    color:darkorange;
+    text-decoration: underline;
+    background-color: blue;
+    transition-property: color;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s;
+}
+
+li {
+/*
+    list-style-type: none;
+    display: inline-block;
+*/
+    
+}
+nav > ul > li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 2% 2% 2% 2%;
+}
+nav {
+    background-color: yellow;
+}
+
+/*body{
+    background-image: url("../img/more-leaves.png");
+} */
+/*body{
+    background-image: linear-gradient(to right, green,purple);
+}*/
+body{
+    background-image: url("../img/cast.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+}
+.movement {
+        animation-name: movement;
+        animation-duration: 4s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        animation-delay: 2s;
+        animation-timing-function: ease-in-out;
+    }
+    @keyframes movement{
+        0%, 100% {
+            transform: translate(0,0);
+        }
+        50% {
+            transform: translate(100px,0) 
+        }
+               
+    }
+@media all and (min-width: 320px) and (max-width: 780px) {
+    nav {
+      background-color: green; 
+    }
+     i {
+    color: blue;
+}
+    
+@media all and (min-width: 781px) and (max-width: 1000px) {
+    nav {
+      background-color: black; 
+    }
+     i {
+    color: red;
+}
+}
+    
