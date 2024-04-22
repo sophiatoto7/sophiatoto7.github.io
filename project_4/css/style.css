@@ -1,0 +1,39 @@
+.water {
+    background-image: url(img/anatomy-of-a-murder_cropped.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+$carousel-dark-indicator-active-bg:  $black;
+$carousel-dark-caption-color:        $black;
+$carousel-dark-control-icon-filter:  invert(1) grayscale(100);
+
+.schibsted-grotesk-sk {
+  font-family: "Schibsted Grotesk", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.cormorant-garamond-regular {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.familjen-grotesk-jen {
+  font-family: "Familjen Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.back {
+    background-color: deepskyblue
+}
+.yellow {
+    color: #ffc107;
+}
+.navbar {
+    background-color: #ffc107;
+   
+}
+
